@@ -1,0 +1,30 @@
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'PT Sans', sans-serif;
+}
+a { color: inherit;
+}
+
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 20px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+  background: white;
+}
+.menubar img {
+  height: 80%;
+  width: auto;
+  transition: all .1s ease;
+}
+.menubar a {
+  height: 20px;
+  text-decoration: none;
+  color: #aaa;
+  transition: all .1s ease;
+}
+.menubar a:hover {
+  opacity: .7;
+  transition: all .1s ease;
+}
